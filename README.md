@@ -4,6 +4,8 @@
 
 The goal of this project is to create a client website that has some key features requested by the client (i.e. Rooster Grin as the client).
 
+https://nassbouz.github.io/front-end-dev-test/
+
 ## Requirements
 
 <strong>Design requirements:</strong>
