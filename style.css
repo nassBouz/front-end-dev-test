@@ -16,6 +16,12 @@ body {
 	color: #44545E;
 }
 
+header {
+	background-image: url('images/hero.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+	height: 100vh;
+} 
 img {
 	max-width: 100%;
 }
@@ -89,27 +95,23 @@ a:hover {
     font-size: 75px;
 }
 
-header {
-	background-image: url('images/hero.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-	height: 100vh;
-}
+
+/* /////// shake animation //////////////// */
+h1:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: 3;
+  }
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  }
+
+/* ///////////////////////////////////////// */
 
 .col-md-6{
     height:400px;
     padding: 0;
 }
-
-.left-text {
-    margin: 50px;
-}
-
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 10%;
-  }
 
 .carousel-indicators li {
     background-color: white;
@@ -122,7 +124,9 @@ header {
 .puple{
     color: purple;
 }
-
+.orange{
+    color: orange;
+}
 .glyphicon {
     color:orange;
 }
